@@ -1,0 +1,40 @@
+# Nuxt dev/build outputs
+.nuxt/
+.output/
+.data/
+.nitro/
+
+# Node
+node_modules/
+*.log*
+
+# System
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+
+# Env files
+.env
+.env.*
+!.env.example
+
+# TypeScript
+*.tsbuildinfo
+
+# Vite
+*.local
+
+# Testing
+coverage/
+
+# Misc
+*.swp
+*.swo
+*~

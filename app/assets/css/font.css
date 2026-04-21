@@ -1,0 +1,72 @@
+@font-face {
+  font-family: 'General Sans';
+  src: url('@/assets/font/GeneralSans-Variable.woff2') format('woff2');
+  font-weight: 100 600;
+  font-style: normal;
+}
+
+@theme {
+  --text-lg: 1rem;
+  --text-lg--letter-spacing: 0.02em;
+  --text-xs--font-weight: 400;
+  --text-sm--font-weight: 400;
+  --text-base--font-weight: 500;
+  --text-lg--font-weight: 500;
+  --text-xl--font-weight: 500;
+  --text-2xl--font-weight: 600;
+  --text-3xl--font-weight: 600;
+  --text-4xl--font-weight: 200;
+  --text-5xl--font-weight: 200;
+  --text-6xl--font-weight: 200;
+  --text-7xl--font-weight: 200;
+  --text-8xl--font-weight: 200;
+  --text-9xl--font-weight: 200;
+}
+
+/* Heading Styles */
+h1 {
+  letter-spacing: -0.02em;
+  text-wrap: balance;
+}
+
+h2 {
+  letter-spacing: -0.01em;
+  text-wrap: balance;
+}
+
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+  letter-spacing: 0.01em;
+}
+
+/* Body Text */
+body,
+p {
+  font-family: 'General Sans', system-ui, sans-serif;
+  letter-spacing: 0.01em;
+  line-height: 1.5;
+  text-wrap: pretty;
+}
+
+/* Link Styles */
+a {
+  font-family: 'General Sans', system-ui, sans-serif;
+  font-weight: 400;
+}
+
+/* Button Styles */
+button {
+  font-family: 'General Sans', system-ui, sans-serif;
+  font-weight: 500;
+}
+
+/* Input Styles */
+input,
+textarea,
+select {
+  font-family: 'General Sans', system-ui, sans-serif;
+  font-weight: 400;
+}

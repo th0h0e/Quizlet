@@ -1,0 +1,26 @@
+@import 'tailwindcss';
+@import '@nuxt/ui';
+
+/* stylelint-disable-next-line at-rule-no-unknown */
+@source '../../../content/**/*';
+
+/* stylelint-disable-next-line at-rule-no-unknown */
+@theme static {
+  --font-sans: 'General Sans', sans-serif;
+
+  --color-frequency-50: #f2f6fd;
+  --color-frequency-100: #e5ecf9;
+  --color-frequency-200: #c4d7f3;
+  --color-frequency-300: #91b6e8;
+  --color-frequency-400: #5690da;
+  --color-frequency-500: #3072c7;
+  --color-frequency-600: #1e519b;
+  --color-frequency-700: #1c4788;
+  --color-frequency-800: #1b3d71;
+  --color-frequency-900: #1b355f;
+  --color-frequency-950: #12223f;
+
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1180px;
+}

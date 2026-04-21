@@ -1,0 +1,18 @@
+{
+  "title": "Professional",
+  "subtitle": "For serious musicians",
+  "price": "$9.99",
+  "priceDescription": "per month",
+  "features": [
+    { "text": "All Starter features", "included": true },
+    { "text": "Revenue tracking", "included": true },
+    { "text": "Playlist analytics", "included": true },
+    { "text": "Weekly reports", "included": true },
+    { "text": "Collaboration tools", "included": false }
+  ],
+  "buttonText": "Start Free Trial",
+  "buttonVariant": "solid",
+  "buttonColor": "primary",
+  "highlighted": true,
+  "order": 2
+}

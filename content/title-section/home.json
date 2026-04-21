@@ -1,0 +1,17 @@
+{
+  "title": "Frequency Digital",
+  "description": "We've built a strong, lasting partnership. Their trust is our driving force, propelling us towards shared success.",
+  "variant": "subtle",
+  "links": [
+    {
+      "label": "Get started",
+      "color": "neutral"
+    },
+    {
+      "label": "Learn more",
+      "color": "neutral",
+      "variant": "subtle",
+      "trailingIcon": "feather:arrow-right"
+    }
+  ]
+}

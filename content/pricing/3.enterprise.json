@@ -1,0 +1,19 @@
+{
+  "title": "Enterprise",
+  "subtitle": "For labels & collectives",
+  "price": "Custom",
+  "priceDescription": "Let us talk",
+  "features": [
+    { "text": "All features", "included": true },
+    { "text": "Collaboration tools", "included": true },
+    { "text": "API access", "included": true },
+    { "text": "Priority support", "included": true },
+    { "text": "Custom reports", "included": true }
+  ],
+  "buttonText": "Contact Sales",
+  "buttonLink": "/contact",
+  "buttonVariant": "outline",
+  "buttonColor": "neutral",
+  "highlighted": false,
+  "order": 3
+}

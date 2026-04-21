@@ -1,0 +1,47 @@
+{
+  "name": "quizlet",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint .",
+    "lint:fix": "pnpm eslint . --fix",
+    "typecheck": "nuxt typecheck"
+  },
+  "dependencies": {
+    "@iconify-json/simple-icons": "^1.2.77",
+    "@iconify-json/vscode-icons": "^1.2.45",
+    "@nuxt/content": "^3.12.0",
+    "@nuxt/image": "^2.0.0",
+    "@nuxt/ui": "^4.6.1",
+    "@nuxtjs/mdc": "^0.21.1",
+    "@vueuse/core": "^14.2.1",
+    "@vueuse/nuxt": "^14.2.1",
+    "better-sqlite3": "^12.8.0",
+    "gsap": "^3.14.2",
+    "minimark": "^1.0.0",
+    "nuxt": "^4.4.2",
+    "nuxt-og-image": "^5.1.13",
+    "nuxt-studio": "^1.5.1",
+    "tailwindcss": "^4.2.2",
+    "ufo": "^1.6.3",
+    "unist-util-visit": "^5.1.0",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@compodium/nuxt": "0.1.0-beta.12",
+    "@iconify-json/feather": "^1.2.1",
+    "@nuxt/eslint": "^1.15.2",
+    "eslint": "^10.2.0",
+    "prettier": "^3.8.1",
+    "prettier-plugin-tailwindcss": "^0.7.2",
+    "prettier-plugin-vue": "^1.1.6",
+    "typescript": "^5.9.3",
+    "v-gsap-nuxt": "^1.5.12",
+    "vue-tsc": "^3.2.5"
+  },
+  "packageManager": "pnpm@10.32.1"
+}

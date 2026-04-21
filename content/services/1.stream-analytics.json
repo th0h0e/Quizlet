@@ -1,0 +1,12 @@
+{
+  "title": "Stream Analytics",
+  "avatarColor": "accent",
+  "avatarLabel": "A",
+  "description": "Real-time tracking of your streams across Spotify, Apple Music, YouTube Music, and more. See which tracks are trending and gaining momentum.",
+  "image": "/images/img_6905.jpg",
+  "order": 1,
+  "primaryButtonText": "Learn More",
+  "secondaryButtonText": "Details",
+  "textSectionDescription": "Get detailed insights into how your music is performing across all streaming platforms. Track listener trends, peak listening times, and geographic distribution to make data-driven decisions about your music career.",
+  "textSectionTitle": "Understanding Your Growth"
+}
