@@ -1,0 +1,8 @@
+collection: "chinese"
+term: "不"
+definition: "No / Not"
+pinyin: "bù"
+example: "我不是老师。"
+tags: ["negation", "basic"]
+difficulty: "beginner"
+order: 7

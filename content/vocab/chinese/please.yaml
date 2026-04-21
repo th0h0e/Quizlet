@@ -1,0 +1,8 @@
+collection: "chinese"
+term: "请"
+definition: "Please"
+pinyin: "qǐng"
+example: "请给我一杯水。"
+tags: ["polite", "basic"]
+difficulty: "beginner"
+order: 4

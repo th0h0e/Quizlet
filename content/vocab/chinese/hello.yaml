@@ -1,0 +1,8 @@
+collection: "chinese"
+term: "你好"
+definition: "Hello"
+pinyin: "nǐ hǎo"
+example: "你好，很高兴认识你。"
+tags: ["greeting", "basic"]
+difficulty: "beginner"
+order: 1

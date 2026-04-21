@@ -1,0 +1,8 @@
+collection: "chinese"
+term: "你"
+definition: "You"
+pinyin: "nǐ"
+example: "你叫什么名字？"
+tags: ["pronoun", "basic"]
+difficulty: "beginner"
+order: 9
