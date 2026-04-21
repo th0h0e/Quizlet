@@ -1,0 +1,8 @@
+collection: "chinese"
+term: "多少"
+definition: "How much / How many"
+pinyin: "duō shǎo"
+example: "这个多少钱？"
+tags: ["question", "basic"]
+difficulty: "beginner"
+order: 17

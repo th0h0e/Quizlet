@@ -1,0 +1,8 @@
+collection: "chinese"
+term: "吃"
+definition: "To eat"
+pinyin: "chī"
+example: "你想吃什么？"
+tags: ["verb", "food"]
+difficulty: "beginner"
+order: 11

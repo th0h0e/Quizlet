@@ -15,28 +15,20 @@ useSeoMeta({
   title: 'Page not found',
   description: 'We are sorry but this page could not be found.'
 })
-
-const { data: navigation } = await useAsyncData('navigation', () => queryCollectionNavigation('docs'))
-const { data: files } = useLazyAsyncData('search', () => queryCollectionSearchSections('docs'), {
-  server: false
-})
-
-provide('navigation', navigation)
 </script>
 
 <template>
   <UApp>
-    <AppHeader />
-
-    <UError :error="error" />
-
-    <AppFooter />
-
-    <ClientOnly>
-      <LazyUContentSearch
-        :files="files"
-        :navigation="navigation"
-      />
-    </ClientOnly>
+    <UContainer class="flex min-h-screen flex-col items-center justify-center">
+      <div class="text-center">
+        <h1 class="text-6xl font-bold text-primary mb-4">
+          {{ error.statusCode }}
+        </h1>
+        <p class="text-lg text-muted mb-8">
+          {{ error.statusMessage || 'Something went wrong' }}
+        </p>
+        <UButton to="/" label="Go home" icon="i-feather:home" />
+      </div>
+    </UContainer>
   </UApp>
 </template>

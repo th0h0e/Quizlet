@@ -1,0 +1,8 @@
+collection: "chinese"
+term: "喝"
+definition: "To drink"
+pinyin: "hē"
+example: "我想喝茶。"
+tags: ["verb", "food"]
+difficulty: "beginner"
+order: 12

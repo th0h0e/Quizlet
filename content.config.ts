@@ -1,31 +1,32 @@
 import { defineContentConfig, defineCollection } from '@nuxt/content'
+import { z } from 'zod'
 
 export default defineContentConfig({
   collections: {
     collections: defineCollection({
       type: 'data',
-      source: 'collections/**/*.yaml',
-      schema: {
-        title: { type: 'string', required: true },
-        description: { type: 'string', required: true },
-        language: { type: 'string', required: true },
-        icon: { type: 'string', required: false },
-        color: { type: 'string', required: false }
-      }
+      source: 'collections/**.yaml',
+      schema: z.object({
+        title: z.string(),
+        description: z.string(),
+        language: z.string(),
+        icon: z.string().optional(),
+        color: z.string().optional()
+      })
     }),
     vocabCards: defineCollection({
       type: 'data',
-      source: 'vocab/**/*.yaml',
-      schema: {
-        collection: { type: 'string', required: true },
-        term: { type: 'string', required: true },
-        definition: { type: 'string', required: true },
-        pinyin: { type: 'string', required: false },
-        example: { type: 'string', required: false },
-        tags: { type: 'array', required: false },
-        difficulty: { type: 'string', required: false },
-        order: { type: 'number', required: false }
-      }
+      source: 'vocab/**.yaml',
+      schema: z.object({
+        collection: z.string(),
+        term: z.string(),
+        definition: z.string(),
+        pinyin: z.string().optional(),
+        example: z.string().optional(),
+        tags: z.array(z.string()).optional(),
+        difficulty: z.string().optional(),
+        order: z.number().optional()
+      })
     })
   }
 })

@@ -1,0 +1,8 @@
+collection: "chinese"
+term: "学习"
+definition: "To study / To learn"
+pinyin: "xué xí"
+example: "我在学习中文。"
+tags: ["verb", "education"]
+difficulty: "beginner"
+order: 20

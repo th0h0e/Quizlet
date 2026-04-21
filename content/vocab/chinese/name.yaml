@@ -1,0 +1,8 @@
+collection: "chinese"
+term: "名字"
+definition: "Name"
+pinyin: "míng zi"
+example: "你叫什么名字？"
+tags: ["noun", "basic"]
+difficulty: "beginner"
+order: 18

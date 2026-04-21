@@ -1,0 +1,8 @@
+collection: "chinese"
+term: "小"
+definition: "Small / Little"
+pinyin: "xiǎo"
+example: "这只猫很小。"
+tags: ["adjective", "basic"]
+difficulty: "beginner"
+order: 15

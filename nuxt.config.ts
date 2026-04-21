@@ -2,22 +2,13 @@
 export default defineNuxtConfig({
   modules: [
     '@nuxt/eslint',
-    '@nuxt/image',
     '@nuxt/ui',
-    '@compodium/nuxt',
     '@nuxt/content',
-    'nuxt-og-image',
-    '@vueuse/nuxt',
-    'nuxt-studio',
-    'v-gsap-nuxt'
+    'nuxt-studio'
   ],
 
   devtools: {
-    // enabled: true
-  },
-
-  app: {
-    layoutTransition: { name: 'layout', mode: 'out-in' }
+    enabled: true
   },
 
   css: ['~/assets/css/main.css'],
@@ -39,6 +30,7 @@ export default defineNuxtConfig({
       }
     }
   },
+
   devServer: {
     port: 3001
   },
@@ -49,20 +41,6 @@ export default defineNuxtConfig({
   },
 
   compatibilityDate: '2026-03-27',
-
-  nitro: {
-    prerender: {
-      routes: ['/'],
-      crawlLinks: true,
-      autoSubfolderIndex: false
-    }
-  },
-
-  vite: {
-    optimizeDeps: {
-      include: ['gsap', 'gsap/CustomEase']
-    }
-  },
 
   eslint: {
     config: {
@@ -80,20 +58,5 @@ export default defineNuxtConfig({
         global: true
       }
     ]
-  },
-
-  icon: {
-    serverBundle: {
-      collections: ['feather']
-    }
-  },
-
-  studio: {
-    repository: {
-      provider: 'github',
-      owner: 'th0h0e',
-      repo: 'Frequency-Nuxt-Studio',
-      branch: 'main'
-    }
   }
 })
